@@ -10,6 +10,5 @@ services:
         reservations:
           devices:
             - capabilities: [gpu]
-    command: 
-      jupyter-lab --ip 0.0.0.0 --allow-root --NotebookApp.token=''
+    
       
