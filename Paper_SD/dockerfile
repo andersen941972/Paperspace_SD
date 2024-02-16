@@ -48,7 +48,7 @@ RUN pyenv global myenv
 
 
 
-# PyTorch, Jupyter Lab, ipykernel, Node.jsをインストール
+# PyTorch, Jupyter notebook, ipykernel, Node.jsをインストール
 RUN pip install --no-cache-dir torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu118
 RUN pip install jupyter
 RUN pip install ipykernel
